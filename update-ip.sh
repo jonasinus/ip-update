@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #fetch the current ip address
-current_ip=$(curl -s http://ipconfig.me/ip)
+current_ip=$(curl -s http://api.ipify.org/)
 
 #path to the ip-update.txt file
 ip_file_path="ip-update.txt"
